@@ -1,4 +1,41 @@
 body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #fafafa;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+}
+header{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+}
+nav{
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+}
+nav a{
+    border: 1px solid grey;
+    text-decoration: none;
+    color: black;
+    width: 33.3%;
+}
+
+main{
+    display: flex;
+    align-items: stretch;
+}
+aside{
+    background-color: royalblue;
+    
+}
+section{
+    display: flex;
+    flex-direction: row;
+}
+div{  
+    
+    flex-wrap: wrap;
+    background-color: gold;
 }
